@@ -1,0 +1,365 @@
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+/*header start*/
+.top_ul{
+	padding: 18px 0;
+}
+
+.menu ul li a{
+    padding: 0 0 10px !important;
+}
+
+.menu ul li:last-child a{
+    padding-bottom: 0 !important;
+}
+
+.menu_btn{
+	margin-left: 0;
+	display: inline-block;
+}
+
+/*header end*/
+
+/*hero start*/
+.hero_text h1{
+	font-size: 28px;
+	line-height: 38px;
+}
+.hero_text p{
+	font-size: 18px;
+}
+
+/*ftr start*/
+.f_content ul li p{
+	padding-right: 0px;
+}
+
+/*tpbrand*/
+.tpb_img_cntnt{
+	display: none;
+}
+/*tpbrand end*/
+
+/* call to action*/
+.c_t_a{
+	display: none;
+}
+/*.cta_text h1{
+	font-size: 18px;
+}
+.cta_text {
+	text-align: center;
+    padding: 5px 8px;
+    top: 84px;
+    right: 62px;
+    width: 79%;
+    background: RGBA(20,29,50,0.85);
+}*/
+/* call to action end*/
+
+
+
+
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/*header start*/
+.top_ul{
+	padding: 18px 0;
+}
+
+.menu ul li a{
+    padding: 0 0 10px !important;
+}
+
+.menu ul li:last-child a{
+    padding-bottom: 0 !important;
+}
+
+.menu_btn{
+	margin-left: 0;
+	display: inline-block;
+}
+/*header end*/
+
+/*ftr start*/
+.f_content ul li p{
+	padding-right: 0px;
+}
+
+/*tpbrand*/
+.tpb_img_cntnt{
+	display: none;
+}
+/*tpbrand end*/
+
+/* call to action*/
+.cta_text h1{
+	font-size: 25px;
+}
+.cta_text {
+    padding: 10px 16px;
+    top: 84px;
+    right: 62px;
+    width: 79%;
+    background: RGBA(20,29,50,0.85);
+}
+/* call to action end*/
+
+
+
+
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+
+/*header start*/
+
+.menu ul li a{
+    padding: 0 0 10px !important;
+}
+
+.menu ul li:last-child a{
+    padding-bottom: 0 !important;
+}
+
+.menu_btn{
+	margin-left: 0;
+	display: inline-block;
+}
+
+/*header end*/
+/*hero start*/
+.hero_text h1{
+	font-size: 38px;
+	line-height: 50px;
+}
+.hero_text p{
+	font-size: 24px;
+}
+.hero_img{
+	width: 80%;
+}
+
+.crsl_cstm_indctrs{
+	bottom: -55px;
+	left: 55px;
+}
+.crsl_cstm_indctrs button{
+	height: 9px !important;
+	width: 9px !important;
+	background: transparent !important;
+	border: 4px solid #ffffff !important;
+}
+/*hero end*/
+
+/*why choose*/
+.wch_wpt {
+    padding: 29px 50px 30px 35px;
+}
+.wc_icon img{
+	margin-bottom: 10px;
+	width: 30% !important;
+}
+.wc_hd h2{
+	font-size: 20px;
+}
+
+.wc_text p{
+	margin-top: 5px !important;
+}
+
+.wcm_btm_dvdr{
+	width: 35%;
+}
+
+/*ftr start*/
+.f_content ul li p{
+	padding-right: 0px;
+}
+/*ftr end*/
+/*top brand start*/
+.tpb_lft_col_cntnt h1{
+/*	margin-top: 20px;*/
+	font-size: 25px;
+}
+.tpbrnd_hd_dvdr{
+	width: 40%;
+}
+.tpb_single_text p{
+	padding-right: 0px;
+}
+.tob_img1 img {
+	margin-left: 68px;
+    width: 80% !important;
+}
+
+.tob_img2 img {
+    width: 83% !important;
+    right: 79px;
+}
+/*top brand end*/
+
+/* call to action*/
+.cta_text h1{
+	font-size: 25px;
+}
+ .cta_text {
+ 	padding: 30px 40px;
+    top: 114px;
+    right: 78px;
+    width: 80%;
+    background: RGBA(20,29,50,0.85);
+}
+/* call to action end*/
+
+
+
+
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*hero start*/
+.hero_text h1{
+	font-size: 58px;
+	line-height: 70px;
+}
+.hero_text p{
+	font-size: 26px;
+}
+
+/*hero start*/
+
+/*why choose*/
+.wch_wpt {
+    padding: 29px 20px 30px 35px;
+}
+.wc_icon img{
+	width: 80% !important;
+}
+.wc_hd h2{
+	font-size: 23px;
+}
+
+.wcm_btm_dvdr{
+	width: 25%;
+}
+
+/*ftr start*/
+.f_content ul li p{
+	padding-right: 40px;
+}
+/*ftr end*/
+/*top brand start*/
+.tpbrnd_hd_dvdr{
+	width: 40%;
+}
+.tpb_single_text p{
+	padding-right: 0px;
+}
+.tob_img1 img {
+	margin-left: 90px;
+    width: 80% !important;
+}
+
+.tob_img2 img {
+    width: 83% !important;
+    right: 129px;
+}
+/*top brand end*/
+
+/* call to action*/
+ .cta_text {
+    top: 120px;
+    right: 45px;
+    width: 65%;
+}
+/* call to action end*/
+
+
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+.hero_img{
+	width: 81%;
+}
+/*hero end*/
+/*why choose*/
+.wc_icon img{
+	width: 90% !important;
+}
+.wc_hd h2{
+	font-size: 26px;
+}
+
+.wcm_btm_dvdr{
+	width: 21%;
+}
+
+/*ftr start*/
+.f_content ul li p{
+	padding-right: 80px;
+}
+/*ftr end*/
+/*top brand start*/
+.tpbrnd_hd_dvdr{
+	width: 32%;
+}
+.tpb_single_text p{
+	padding-right: 30px;
+}
+
+.tob_img1 img {
+    width: 90% !important;
+}
+
+.tob_img2 img {
+    width: 93% !important;
+}
+/*top brand end*/
+
+/* call to action*/
+ .cta_text {
+    top: 120px;
+    right: 50px;
+    width: 60%;
+}
+/* call to action end*/
+
+
+
+ }
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1919.98px) { 
+
+/* call to action*/
+ .cta_text {
+    top: 120px;
+    right: 78px;
+    width: 58%;
+}
+/* call to action end*/
+
+ }
+
+ /*Extra Extra large devices (large desktops, 1920px and up)*/
+@media (min-width: 1920px) { 
+
+
+
+ }
