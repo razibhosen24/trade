@@ -69,6 +69,9 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 
 /*header start*/
+.logo {
+	width: 60%;
+}
 .top_ul{
 	padding: 18px 0;
 }
@@ -86,6 +89,78 @@
 	display: inline-block;
 }
 /*header end*/
+/* hero start */
+.hero {
+	padding: 30px 0px 50px;
+}
+.hero_text h1{
+
+	font-size: 40px;
+	text-align: center;
+	line-height: 53px;
+	padding: 0 50px;
+
+}
+.hero_text p {
+	text-align: center;
+	font-size: 24px;
+}
+/* hero end */
+
+/* why choose start*/
+.w_c_f{
+	width: 80%;
+  margin: 0 auto;
+	padding: 10px 0;
+}
+.left_dvdr{
+	border: none !important;
+}
+.btm_dvdr {
+	border-bottom: 1px solid #ededed !important;
+}
+.sm_st{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.wc_icon{
+	width: 15%;
+
+}
+.wch_wpt {
+	padding: 20px;
+	text-align: center;
+}
+.wc_hd h2{
+	margin-top: 10px;
+  font-size: 26px;
+}
+
+.wc_text p{
+	margin-top: 0 !important;
+}
+.wc_img{
+	width: 65%;
+}
+.wch_mtext{
+	margin-top: 10px;
+	text-align: center;
+}
+.wcm_btm_dvdr{
+	margin: 0 auto; 
+}
+.wch_mtext p {
+	margin-top: 5px;
+}
+/* why choose  end*/
+
+/* cta start */
+.cta_text {
+	top: 78px !important;
+	padding: 15px 20px !important;
+}
+/* cta end */
 
 /*ftr start*/
 .f_content ul li p{
@@ -205,6 +280,9 @@
 .tob_img2 img {
     width: 83% !important;
     right: 79px;
+}
+.tp_rgt_clmn{
+	align-items: center;
 }
 /*top brand end*/
 
